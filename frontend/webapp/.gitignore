@@ -1,4 +1,4 @@
-# A frontend specific gitignore file
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
 /dist
@@ -8,12 +8,10 @@
 /bazel-out
 
 # dependencies
-/node
 /node_modules
 
 # profiling files
 chrome-profiler-events*.json
-speed-measure-plugin*.json
 
 # IDEs and editors
 /.idea
@@ -45,16 +43,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-.vscode/launch.json
-
-# Cypress
-cypress/screenshots/*
-cypress/videos/*
-mochawesome-report/*
-results/assets/*
-run_report.json
-test-results.xml
-local-config.json
-
-# keep .gitkeep File in Folder results tracked
-!mochawesome-report/results/.gitkeep
